@@ -1,1 +1,49 @@
+/* 1. Fondo general y tipografía */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1c20; /* El gris muy oscuro de tu Figma */
+    color: #ffffff;
+    font-family: 'serif'; /* O la que uses en Figma */
+}
 
+/* 2. Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* 3. El Hero (Sección del agua) */
+.hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* Aquí pondremos la imagen que exportes de Figma */
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/fondo-agua.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
