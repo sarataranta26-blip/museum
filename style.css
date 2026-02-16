@@ -10,9 +10,17 @@ body {
 /* 2. Barra de navegación */
 .navbar {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 5%;
+    padding: 0px;
+    gap: 117px;
+    position: absolute;
+    width: 1240px;
+    height: 46px;
+    left: 20px;
+    top: 14px;
+
     background-color: #ffffff;
     color: #000000;
 }
